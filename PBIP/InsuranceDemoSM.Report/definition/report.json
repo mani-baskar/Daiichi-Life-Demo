@@ -1,0 +1,94 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "Fluent2-CY26SU08",
+      "reportVersionAtImport": {
+        "visual": "2.12.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Daiichi_Life_-_Premium_Neon_In9230553270565162.json",
+      "reportVersionAtImport": {
+        "visual": "2.12.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Background_29515669991047163.png",
+          "path": "Background_29515669991047163.png",
+          "type": "Image"
+        },
+        {
+          "name": "Daiichi_Life_-_Premium_Neon_In9230553270565162.json",
+          "path": "Daiichi_Life_-_Premium_Neon_In9230553270565162.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "Page_27066012684947875.png",
+          "path": "Page_27066012684947875.png",
+          "type": "Image"
+        },
+        {
+          "name": "Page_36426835349102723.png",
+          "path": "Page_36426835349102723.png",
+          "type": "Image"
+        },
+        {
+          "name": "Page_45763024786063601.png",
+          "path": "Page_45763024786063601.png",
+          "type": "Image"
+        },
+        {
+          "name": "Page_55245691038340857.png",
+          "path": "Page_55245691038340857.png",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "Fluent2-CY26SU08",
+          "path": "BaseThemes/Fluent2-CY26SU08.json",
+          "type": "BaseTheme"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "useEnhancedTooltips": false,
+    "queryLimitOption": "None",
+    "customMemoryLimit": "1048576",
+    "customTimeoutLimit": "225"
+  }
+}
